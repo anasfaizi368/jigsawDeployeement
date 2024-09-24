@@ -1,0 +1,150 @@
+.trend-outer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4e9e9;
+  }
+  .trending__box {
+    border-radius: 16px 0 0px 16px;
+    background: rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(69.45px);
+    width: 100%;
+    height: 182px;
+    display: flex;
+  }
+  .trending-inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .trending__logo__slider {
+    position: relative;
+    height: 182px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  } 
+  .trending_icon_wrapper {
+    white-space: nowrap;
+    animation: slide 5s infinite linear;
+    display: flex;
+    gap: 30px;
+  }
+  .trending-icon {
+    height: 130px;
+    width: 130px;
+    overflow: hidden;
+    border-radius: 13px;
+  }
+  
+  .trending-inside-para-button {
+    color: rgba(5, 211, 93, 1);
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-18%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .trending__box {
+      width: 60%;
+    }
+  
+    
+    .trending__logo__slider {
+      margin-left: 0;
+    }
+  }
+  
+  /* for large */
+  @media (max-width: 900px) {
+    .trending__box {
+      width: 100%;
+    }
+  }
+  
+  /* for medium */
+  @media (max-width: 768px) {
+    .trend-outer-section {
+      flex-direction: column;
+    
+    }
+  
+    .trending__logo__slider {
+      width: 100%;
+    }
+  
+    .trending__box {
+      width: 80%;
+    }
+  
+    .trending__box {
+      border-radius: 16px 16px 16px 16px;
+      height: 200px;
+    }
+  }
+  
+  /* for small */
+  @media (max-width: 640px) {
+    .trending__box {
+      width: 90%;
+    }
+  
+    .trending-inside {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      left: -20px;
+      top: 18px;
+      gap: 20px;
+    }
+  
+    .trending-inside-para {
+      width: 90%;
+      padding-right: 0.6rem;
+    }
+  
+    .trending-inside {
+      gap: 15px;
+    }
+  
+    .img-inside img {
+      width: 200px;
+      height: 140px;
+    }
+  
+    .trending-inside-para p {
+      font-size: 13px;
+    }
+  }
+  
+  /* for extra small */
+  @media (max-width: 400px) {
+    .img-inside img {
+      width: 170px;
+      height: 140px;
+    }
+  
+    .trending-inside-para p {
+      font-size: 13px;
+      line-height: 25px;
+    }
+  
+    .trending__box {
+      width: 85%;
+      height: 200px;
+      padding-right: 0rem;
+    }
+  }
+  

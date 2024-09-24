@@ -1,0 +1,139 @@
+.main_div_outstanding {
+  width: 100%;
+  height: auto;
+  background-image: url("./outstanding2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 80px 0px 80px 0px;
+}
+.outstanding_div_1 {
+  width: 50%;
+  height: auto;
+  background-image: url("./outstanding_1.png");
+  background-position: center;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  justify-content: center;
+}
+
+.heading_1_outstanding {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.phagraph_outstanding_section {
+  font-family: sans-serif;
+  font-size: 16.54px;
+  font-weight: 500;
+  line-height: 21.1px;
+  color: #fff;
+}
+.outstanding_div_2 {
+  width: 40%;
+  height: 628px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px 15px 40px 15px; 
+}
+.custom_button_outstanding_1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2rem;
+}
+.custom_button_outstanding_2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.custom_button_outstanding
+/* --------------------------------------- */
+.slider-content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: transform 0.5s ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+.slide {
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--Tertiary-100, rgb(231, 48, 48));
+  margin: 0;
+}
+.slide.active {
+  color: var(--Tertiary-100, #f0e400);
+}
+.revo-special {
+  text-transform: capitalize;
+  word-wrap: break-word;
+  width: 300px;
+  height: 45px;
+  overflow: hidden;
+}
+.outstanding_div_1_image{
+  height: 280px;
+  width: 245px;
+}
+.outstanding_div_2_image{
+  height: 300px;
+  width: 445px;
+}
+.name_input_replace_text{
+  color: var(--Primary-100, #2E337B);
+  font-family: sans-serif;
+font-size: 28.05px;
+font-weight: 500;
+line-height: 33.66px;
+text-align: center;
+margin-bottom: 2rem;
+
+
+}
+
+/* responsive for mobile--------- */
+@media (max-width: 740px) {
+    .main_div_outstanding {
+       height: auto;
+        flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .name_input_replace_text{
+font-size: 24.05px;
+
+    }
+    .outstanding_div_1{
+        width: 80%;
+     padding-bottom: 50px;
+     
+    }
+    .outstanding_div_2{
+        width: 90%;
+        padding: 30px 10px 30px 10px;
+        margin-top: 2rem;
+    }
+    .outstanding_div_2_image{
+      height: 180px;
+      width: 280px;
+     
+    }
+}

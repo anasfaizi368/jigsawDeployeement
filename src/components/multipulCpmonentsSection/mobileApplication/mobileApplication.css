@@ -1,0 +1,311 @@
+.main_div_mobile_application {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.main_div_mobile_application.bg_1 {
+  background-image: url("./image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_div_mobile_application.bg_2 {
+  background-image: url("./image (2).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_div_mobile_application.bg_3 {
+  background-image: url("./Variant2.png");
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_div_mobile_application.bg_4 {
+  background-image: url("./drive_thru.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_div_mobile_application.bg_5 {
+  background-image: url("./digital_menu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_div_mobile_application.bg_6 {
+  background-image: url("./crm.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_div_mobile_application.bg_7 {
+  background-image: url("./scane.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main_div_mobile_application.bg_8 {
+  background-image: url("./ai_power.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer_div_multicomponents {
+  width: 100%;
+  height: 100px;
+
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.slider-container {
+  display: none;
+}
+/* --------------------------------------------------------------- */
+.text_1_footer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-image 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text_1_footer.background-image {
+  background-image: url("./Mobile_App.png");
+
+  background-size: contain;
+  background-position: center;
+  border-radius: 20px;
+}
+.text_1_footer.background-image .heading_click_me {
+  opacity: 0;
+}
+/* --------------------------------------------------------------- */
+
+.text_2_footer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-image 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text_2_footer.background-image {
+  background-image: url("./web_application2.png");
+  background-size: contain;
+  background-position: center;
+  border-radius: 20px;
+}
+.text_2_footer.background-image .heading_click_me {
+  opacity: 0;
+}
+/* --------------------------------------------------------------- */
+
+.text_3_footer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-image 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text_3_footer.background-image {
+  background-image: url("./jigsaw2.png");
+  background-size: contain;
+  background-position: center;
+  border-radius: 20px;
+}
+.text_3_footer.background-image .heading_click_me {
+  opacity: 0;
+}
+/* --------------------------------------------------------------- */
+.text_4_footer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-image 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text_4_footer.background-image {
+  background-image: url("./drive2.png");
+  border-radius: 20px;
+
+  background-size: contain;
+  background-position: center;
+}
+.text_4_footer.background-image .heading_click_me {
+  opacity: 0;
+}
+/* --------------------------------------------------------------- */
+.text_5_footer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-image 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text_5_footer.background-image {
+  border-radius: 20px;
+
+  background-image: url("./digital_application.png");
+
+  background-size: contain;
+  background-position: center;
+}
+.text_5_footer.background-image .heading_click_me {
+  opacity: 0;
+}
+/* --------------------------------------------------------------- */
+.text_6_footer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-image 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text_6_footer.background-image {
+  background-image: url("./crm2.png");
+  border-radius: 20px;
+  background-size: contain;
+  background-position: center;
+}
+.text_6_footer.background-image .heading_click_me {
+  opacity: 0;
+}
+/* --------------------------------------------------------------- */
+.text_7_footer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-image 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.text_7_footer.background-image {
+  background-image: url("./scane2.png");
+  border-radius: 20px;
+  background-size: contain;
+  background-position: center;
+}
+.text_7_footer.background-image .heading_click_me {
+  opacity: 0;
+}
+/* --------------------------------------------------------------- */
+.text_8_footer {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-image 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;   
+  background-position: center;
+  position: relative;
+}
+
+.text_8_footer.background-image {
+  background-image: url("./loyal2.png");
+  border-radius: 20px;
+  background-size: contain;
+  background-position: center;
+}
+.text_8_footer.background-image .heading_click_me {
+  opacity: 0;
+}
+/* --------------------------------------------------------------- */
+.heading_click_me {
+  cursor: pointer;
+  border-top: 2px solid rgb(243, 241, 241);
+  display: inline-block;
+  padding-top: 5px;
+  color: white;
+  position: relative;
+  transition: transform 0.3s ease;
+
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16.02px;
+  text-align: left;
+}
+
+.heading_click_me:hover {
+  transform: translateY(-5px);
+}
+
+/* --------------------------------------------------------diffrent content show css -------------------------- */
+
+.mobile_application_1 {
+  height: auto;
+  width: auto;
+  margin-left: 70px;
+  padding: 1rem;
+}
+.mobile_application_1 span {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.97px;
+  letter-spacing: 0.14em;
+  text-align: left;
+  color: #fff41d;
+}
+.mobile_application_1 h2 {
+  font-family: sans-serif;
+  font-size: 46.56px;
+  font-weight: 700;
+  line-height: 59.41px;
+  text-align: left;
+  color: var(--Grayscale-100, #f6f6f6);
+}
+.mobile_application_1 p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: -0.011em;
+  text-align: left;
+  color: var(--Grayscale-100, #f6f6f6);
+}
