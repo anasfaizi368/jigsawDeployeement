@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Maxwidthdiv.css"
+import "./maxwidthdiv.css"
 const Maxwidthdiv = (props) => {
   return (
     <div className='main_div_maxwidth' >
